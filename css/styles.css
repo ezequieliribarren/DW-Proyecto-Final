@@ -89,6 +89,7 @@ header {
     color: white;
     position: fixed;
     top: 0;
+    z-index: 1;
     background-color: rgb(139, 139, 139);
     height: 7rem;
 }
@@ -193,12 +194,12 @@ nav h1{
 }
 
 .arribaNos1 img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
 .abajoNos img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
