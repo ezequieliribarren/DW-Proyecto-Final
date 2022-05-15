@@ -227,7 +227,7 @@
 
         <section id="clientes">
             <h2>Clientes</h2>
-            <div class="clientes1">
+            <div class="clientes1" data-aos="flip-left">
                 <div>
                     <img src="img/clientes/clientes1.jpeg" alt="">
                 </div>
@@ -235,7 +235,7 @@
                     <img src="img/clientes/clientes2.jpeg" alt="">
                 </div>
             </div>
-            <div class="clientes2">
+            <div class="clientes2" data-aos="flip-left">
                 <div>
                     <img src="img/clientes/clientes3.jpeg" alt="">
                 </div>
@@ -321,7 +321,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 1000
+            duration: 1000,
+            once: true
         }
         );
       </script>

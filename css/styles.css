@@ -177,7 +177,8 @@ nav h1{
 .arribaNos  p {
     font-size: large;
     font-family: sansation;
-    text-align: justify;
+    text-align: center;
+    margin: 2rem;
 
 }
 
@@ -189,17 +190,27 @@ nav h1{
 .abajoNos1 p {
     font-size: large;
     font-family: sansation;
-    text-align: justify;
+    text-align: center;
+    margin: 2rem;
     
+}
+.abajoNos{
+    display: flex;
+    justify-content: center;
+}
+
+.arribaNos1{
+    display: flex;
+    justify-content: center;
 }
 
 .arribaNos1 img{
-    width: 90%;
+    width: 80%;
     height: 100%;
 }
 
 .abajoNos img{
-    width: 90%;
+    width: 80%;
     height: 100%;
 }
 
@@ -232,22 +243,25 @@ nav h1{
 
 #productos h2{
     margin-top: 10rem;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .prodFlex{
     display: flex;
 }
 .prodDiv1{
-    margin-top: 2rem;
+    margin-top: 7rem;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .prodDiv1 img{
-    width: 100%;
+    width: 65%;
     height: 100%;
 }
 
 .prodDiv2{
+    margin-top: 7rem;
     width: 50%;
   
 }
@@ -282,16 +296,16 @@ nav h1{
 }
     
 }
-S
+
+
 /* Clientes */
 #clientes{
     scroll-margin-top: 60ex;
-    
 }
 
 #clientes h2{
     margin-bottom: 8rem;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 .clientes1{
@@ -324,8 +338,6 @@ padding: 5rem;
 /* Tienda */
 #tienda{
     scroll-margin-top: 60ex;
-    display: flex;
-    justify-content: center;
 }
 
 #tienda h2{
