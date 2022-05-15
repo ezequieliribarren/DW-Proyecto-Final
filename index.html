@@ -9,6 +9,8 @@
     <!-- Link css -->
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Link animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -69,12 +71,12 @@
                         accusantium.
                     </p>
                 </div>
-                <div class="arribaNos1">
+                <div class="arribaNos1" data-aos="fade-up">
                     <img src="img/clientes/clientes1.jpeg" alt="" class="imgNos">
                 </div>
             </div>
             <div class="contenedorNos1">
-                <div class="abajoNos">
+                <div class="abajoNos" data-aos="fade-up">
                     <img src="img/clientes/clientes2.jpeg" alt=" " class="imgNos">
                 </div>
                 <div class="abajoNos1">
@@ -110,7 +112,7 @@
                     <h2>Productos</h2>
                     <div>
                         <div class="prodFlex">
-                            <div class="prodDiv1">
+                            <div class="prodDiv1" data-aos="zoom-in">
                                 <img src="img/productos/cuadros1.jpg" alt="">
                             </div>
                             <div class="prodDiv2">
@@ -124,7 +126,7 @@
                                         perferendis
                                         commodi eaque assumenda?</p>
                                 </div>
-                                <div class="divImgChicas">
+                                <div class="divImgChicas" data-aos="zoom-in">
                                     <div>
                                         <img src="img/productos/cuadros2.jpg" alt="">
                                     </div>
@@ -138,7 +140,7 @@
                             </div>
                         </div>
                         <div class="prodFlex">
-                            <div class="prodDiv1">
+                            <div class="prodDiv1" data-aos="zoom-in">
                                 <img src="img/productos/panera1.jpg" alt="">
                             </div>
                             <div class="prodDiv2">
@@ -152,7 +154,7 @@
                                         perferendis
                                         commodi eaque assumenda?</p>
                                 </div>
-                                <div class="divImgChicas">
+                                <div class="divImgChicas" data-aos="zoom-in">
                                     <div>
                                         <img src="img/productos/panera1.jpg" alt="">
                                     </div>
@@ -166,7 +168,7 @@
                             </div>
                         </div>
                         <div class="prodFlex">
-                        <div class="prodDiv1">
+                        <div class="prodDiv1" data-aos="zoom-in">
                             <img src="img/productos/lapicero1.jpg" alt="">
                         </div>
                         <div class="prodDiv2">
@@ -179,7 +181,7 @@
                                     perferendis
                                     commodi eaque assumenda?</p>
                             </div>
-                            <div class="divImgChicas">
+                            <div class="divImgChicas" data-aos="zoom-in">
                                 <div>
                                     <img src="img/productos/lapicero1.jpg" alt=" ">
                                 </div>
@@ -193,7 +195,7 @@
                         </div>
                     </div>
                     <div class="prodFlex">
-                    <div class="prodDiv1">
+                    <div class="prodDiv1" data-aos="zoom-in">
                         <img src="img/productos/insumos1.jpg" alt="">
                     </div>
                     <div class="prodDiv2">
@@ -206,7 +208,7 @@
                                 perferendis
                                 commodi eaque assumenda?</p>
                         </div>
-                        <div class="divImgChicas">
+                        <div class="divImgChicas" data-aos="zoom-in">
                             <div>
                                 <img src="img/productos/insumos2.jpg" alt="">
                             </div>
@@ -225,7 +227,7 @@
 
         <section id="clientes">
             <h2>Clientes</h2>
-            <div class="clientes1">
+            <div class="clientes1" data-aos="flip-left">
                 <div>
                     <img src="img/clientes/clientes1.jpeg" alt="">
                 </div>
@@ -233,7 +235,7 @@
                     <img src="img/clientes/clientes2.jpeg" alt="">
                 </div>
             </div>
-            <div class="clientes2">
+            <div class="clientes2" data-aos="flip-left">
                 <div>
                     <img src="img/clientes/clientes3.jpeg" alt="">
                 </div>
@@ -316,7 +318,14 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        }
+        );
+      </script>
 </body>
 
 
