@@ -248,12 +248,14 @@ nav h1{
     display: flex;
     margin-top: 8rem;
 }
+
 .prodDiv1{
     margin-top: 7rem;
     width: 50%;
     display: flex;
     justify-content: center;
 }
+
 .prodDiv1 img{
 <<<<<<< HEAD
     width: 80%;
