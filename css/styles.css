@@ -68,15 +68,15 @@ header {
 }
 
 .banner {
- width: 100%;
- margin-top: 5.5rem;
+    width: 100%;
+    margin-top: 5.5rem;
 }
 
 @media (max-width: 480px) {
-    .banner{
-       margin-top: 15rem;
+    .banner {
+        margin-top: 15rem;
     }
-    
+
 }
 
 /* Nav */
@@ -124,20 +124,23 @@ li a:hover {
     margin-right: 2rem;
 }
 
-nav h1{
+nav h1 {
     margin-right: 1rem;
 }
 
 @media (max-width: 480px) {
-    .nav{ 
-        flex-direction: column; 
+    .nav {
+        flex-direction: column;
         height: 15rem;
         justify-content: center;
     }
-    li{
+
+    li {
         margin: 0.5rem
-    };
-    
+    }
+
+    ;
+
 }
 
 /* Principal */
@@ -151,7 +154,7 @@ nav h1{
     scroll-margin-top: 60ex;
 }
 
-#nosotros h2{
+#nosotros h2 {
     margin-top: 15rem;
     margin-bottom: 10rem;
 }
@@ -162,19 +165,19 @@ nav h1{
     align-items: flex-start;
 }
 
-.contenedorNos1{
+.contenedorNos1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 6rem;
 }
 
-.arribaNos{
+.arribaNos {
     width: 100%;
-  padding: 2rem;
+    padding: 2rem;
 }
 
-.arribaNos  p {
+.arribaNos p {
     font-size: large;
     font-family: sansation;
     text-align: center;
@@ -182,7 +185,7 @@ nav h1{
 
 }
 
-.abajoNos1{
+.abajoNos1 {
     width: 100%;
     padding: 2rem;
 }
@@ -192,30 +195,31 @@ nav h1{
     font-family: sansation;
     text-align: center;
     margin: 2rem;
-    
+
 }
-.abajoNos{
+
+.abajoNos {
     display: flex;
     justify-content: center;
 }
 
-.arribaNos1{
+.arribaNos1 {
     display: flex;
     justify-content: center;
 }
 
-.arribaNos1 img{
+.arribaNos1 img {
     width: 80%;
     height: 100%;
 }
 
-.abajoNos img{
+.abajoNos img {
     width: 80%;
     height: 100%;
 }
 
 
-.arribaNos h3{
+.arribaNos h3 {
     margin-bottom: 3rem;
 }
 
@@ -224,147 +228,154 @@ nav h1{
 }
 
 @media (max-width: 480px) {
-    .contenedorNos, .contenedorNos1{ 
-        flex-direction: column; 
+
+    .contenedorNos,
+    .contenedorNos1 {
+        flex-direction: column;
     }
 
-    .arribaNos, .arribaNos1, .abajoNos, .abajoNos1 {
+    .arribaNos,
+    .arribaNos1,
+    .abajoNos,
+    .abajoNos1 {
         width: 100%;
     }
 
 }
 
 /* Productos */
-#productos{
+#productos {
     scroll-margin-top: 60ex;
 }
 
-#productos h2{
+#productos h2 {
     margin-top: 10rem;
     margin-bottom: 6rem;
 }
 
-.prodFlex{
+.prodFlex {
     display: flex;
     margin-top: 8rem;
 }
 
-.prodDiv1{
+.prodDiv1 {
     margin-top: 7rem;
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.prodDiv1 img{
-<<<<<<< HEAD
+.prodDiv1 img {
     width: 80%;
-=======
-    width: 65%;
->>>>>>> animaciones
     height: 100%;
     margin-left: 3rem;
 }
 
-.prodDiv2{
+.prodDiv2 {
     margin-top: 7rem;
     width: 50%;
-  
+
 }
 
-.prodDiv2 p{
+.prodDiv2 p {
     font-family: sansation;
     font-size: 1.5rem;
     padding: 3rem;
 }
 
-.divImgChicas{
+.divImgChicas {
     display: flex;
     margin-left: 10rem;
     margin-top: 5rem;
 }
 
-.divImgChicas img{
+.divImgChicas img {
     width: 15rem;
     padding: 1rem;
 }
 
 @media (max-width: 480px) {
-    .prodFlex{ 
-        flex-direction: column; 
+    .prodFlex {
+        flex-direction: column;
     }
-.prodDiv1, .prodDiv2 {
-    width: 100%;
-    margin-top: 3rem;
-}
-.divImgChicas{
-    margin-left: 0%;
-}
-    
+
+    .prodDiv1,
+    .prodDiv2 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .divImgChicas {
+        margin-left: 0%;
+    }
+
 }
 
 
 /* Clientes */
-#clientes{
+#clientes {
     scroll-margin-top: 60ex;
 }
 
-#clientes h2{
+#clientes h2 {
     margin-bottom: 8rem;
     margin-top: 12rem;
 }
 
-.clientes1{
+.clientes1 {
     display: flex;
     justify-content: center;
 }
 
-.clientes1 img{
-width: 50rem;
-padding: 5rem;
+.clientes1 img {
+    width: 50rem;
+    padding: 5rem;
 }
 
-.clientes2{
+.clientes2 {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
-.clientes2 img{
+.clientes2 img {
     width: 20rem;
     padding: 1rem;
 }
 
 @media (max-width: 480px) {
-    .clientes1 , .clientes2{
+
+    .clientes1,
+    .clientes2 {
         flex-direction: column;
     }
 }
 
 
 /* Tienda */
-#tienda{
+#tienda {
     scroll-margin-top: 60ex;
 }
 
-#tienda h2{
+#tienda h2 {
     margin-top: 15rem;
     margin-bottom: 7rem;
 }
 
-.tienda{
-    display: flex;
-    justify-content: center;
-}
-.tienda img{
-width: 100%;
-}
-
-.flexLink{
+.tienda {
     display: flex;
     justify-content: center;
 }
 
-.link{
+.tienda img {
+    width: 100%;
+}
+
+.flexLink {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
     font-size: large;
     font-family: sansation;
 }
@@ -372,28 +383,29 @@ width: 100%;
 
 /* Contacto */
 
-#contacto{
+#contacto {
     scroll-margin-top: 60ex;
     margin-top: 12rem;
     margin-bottom: 6rem;
 }
 
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
 }
-.form{
+
+.form {
     font-family: sansation;
     font-size: 1.5rem;
     text-decoration: underline;
 }
 
-.marginContact{
-margin-left: 1rem;
+.marginContact {
+    margin-left: 1rem;
 }
 
-.marginContact1{
+.marginContact1 {
     margin-left: 9.4rem;
 }
 
@@ -408,7 +420,7 @@ margin-left: 1rem;
     align-items: center;
     justify-content: space-between;
     width: 100%;
- 
+
 }
 
 .footerh3 {
@@ -428,7 +440,7 @@ margin-left: 1rem;
 
 .redesSociales {
     width: 2.3rem;
- 
+
 }
 
 .redesSociales1 {
