@@ -366,7 +366,7 @@ nav h1 {
     padding: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .prodFlex {
         flex-direction: column;
     }
@@ -414,11 +414,15 @@ nav h1 {
     padding: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     .clientes1,
     .clientes2 {
         flex-direction: column;
+    }
+
+    .clientes2{
+       align-items: center;
     }
 }
 
