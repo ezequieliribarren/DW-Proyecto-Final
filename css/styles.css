@@ -170,7 +170,7 @@ nav h1 {
 
 /* Carrousel Boostrap */
 .carousel{
-    margin-top: 10rem;
+    margin-top: 13rem;
 }
 
 /* Principal */
@@ -275,23 +275,23 @@ nav h1 {
 /* Nosotros Boostrap */
 
 #nosotros {
-    scroll-margin-top: 60ex;
+    scroll-margin-top: 40ex;
 }
 
 .arribaNos1 img{
-    width: 100%;
+    width: 90%;
 }
 
 .abajoNos img{
-    width: 100%;
+    width: 90%;
 }
 .titleNos{
-    margin-top: 10rem;
+    margin-top: 20rem;
 }
-.row{
-    margin-top: 10rem;
-}
-
+.mt-5 {
+    margin-top: 10rem !important;
+  }
+  
 .arribaNos h3 {
     margin-bottom: 3rem;
 }
@@ -305,6 +305,7 @@ nav h1 {
     font-family: sansation;
     text-align: center;
     margin: 2rem;
+    margin-top: 3rem;
 }
 
 .arribaNos p {
@@ -312,26 +313,34 @@ nav h1 {
     font-family: sansation;
     text-align: center;
     margin: 2rem;
+    margin-top: 3rem;
 }
 
+.arribaNos{
+    margin-top: 2rem;
+}
+
+.abajoNos1{
+    margin-top: 2rem;
+}
 
 /* Productos */
 #productos {
-    scroll-margin-top: 60ex;
+    scroll-margin-top: 15ex;
 }
 
 #productos h2 {
-    margin-top: 10rem;
+    margin-top: 17rem;
     margin-bottom: 6rem;
 }
 
 .prodFlex {
     display: flex;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .prodDiv1 {
-    margin-top: 7rem;
+    margin-top: 5rem;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -344,7 +353,7 @@ nav h1 {
 }
 
 .prodDiv2 {
-    margin-top: 7rem;
+    margin-top: 5rem;
     width: 50%;
 
 }
@@ -384,7 +393,7 @@ nav h1 {
 }
 
 
-/* Clientes */
+/* Clientes
 #clientes {
     scroll-margin-top: 60ex;
 }
@@ -424,12 +433,31 @@ nav h1 {
     .clientes2{
        align-items: center;
     }
+} */
+
+/* Clientes Boostrap */
+#clientes{
+    scroll-margin-top: 15ex;
 }
 
+.clientTitle{
+    margin-top: 20rem;
+}
+
+.imgClient{
+width: 100%;
+margin-top: 10rem; 
+}
+
+.imgClient1{
+    width: 100%; 
+    margin-top: 5rem;
+    justify-items: center;
+    }
 
 /* Tienda */
 #tienda {
-    scroll-margin-top: 60ex;
+    scroll-margin-top: 40ex;
 }
 
 #tienda h2 {
@@ -460,7 +488,7 @@ nav h1 {
 /* Contacto */
 
 #contacto {
-    scroll-margin-top: 60ex;
+    scroll-margin-top: 40ex;
     margin-top: 12rem;
     margin-bottom: 6rem;
 }
