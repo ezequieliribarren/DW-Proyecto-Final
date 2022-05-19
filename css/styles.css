@@ -43,7 +43,7 @@ h3 {
 }
 
 
-/* Estructura de la pagina */
+Estructura de la pagina
 #contenedor {
     display: grid;
     grid-template-areas:
@@ -140,6 +140,7 @@ nav h1 {
 /* Nav Boostrap */
 
 .navbar {
+    grid-area: navegador;
     background-color: rgb(139, 139, 139);
     position: fixed;
     width: 100%;
@@ -156,7 +157,7 @@ nav h1 {
 .navbar-nav a {
     margin: 2rem;
     font-family: sansation;
-    font-weight: 595;
+    font-weight: 597;
 }
 
 .nav-link{
@@ -164,7 +165,8 @@ nav h1 {
 }
 
 .nav-link:hover{
-    color: rgb(80, 78, 78);
+    color: rgb(3, 3, 3);
+    transform: scale(1.1);
     
 }
 
@@ -275,7 +277,7 @@ nav h1 {
 /* Nosotros Boostrap */
 
 #nosotros {
-    scroll-margin-top: 40ex;
+    scroll-margin-top: 17ex;
 }
 
 .arribaNos1 img{
@@ -324,9 +326,9 @@ nav h1 {
     margin-top: 2rem;
 }
 
-/* Productos */
+/* Productos
 #productos {
-    scroll-margin-top: 15ex;
+    scroll-margin-top: 17ex;
 }
 
 #productos h2 {
@@ -391,7 +393,52 @@ nav h1 {
     }
 
 }
+ */
 
+ /* Productos Boostrap */
+
+#productos {
+    scroll-margin-top: 17ex;
+}
+
+#productos h2 {
+    margin-top: 17rem;
+    margin-bottom: 6rem;
+}
+
+.prodDiv1 {
+    margin-top: 5rem;
+}
+
+.prodDiv1 img {
+    width: 80%;
+}
+
+.prodDiv2 {
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.parrafoProd p {
+    font-family: sansation;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+.divImgChicas {
+    display: flex;
+   
+}
+
+.divImgChicas img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.divImgChicas img:hover{
+    transform: scale(1.5);
+}
+ 
 
 /* Clientes
 #clientes {
@@ -437,7 +484,7 @@ nav h1 {
 
 /* Clientes Boostrap */
 #clientes{
-    scroll-margin-top: 15ex;
+    scroll-margin-top: 17ex;
 }
 
 .clientTitle{
@@ -445,17 +492,18 @@ nav h1 {
 }
 
 .imgClient{
-width: 100%;
+width: 90%;
 margin-top: 10rem; 
 }
 
+
 .imgClient1{
-    width: 100%; 
+    width: 50%; 
     margin-top: 5rem;
-    justify-items: center;
+    padding: 1rem;
     }
 
-/* Tienda */
+/* Tienda
 #tienda {
     scroll-margin-top: 40ex;
 }
@@ -482,13 +530,33 @@ margin-top: 10rem;
 .link {
     font-size: large;
     font-family: sansation;
+} */
+
+
+/* Tienda Boostrap */
+#tienda {
+    scroll-margin-top: 17ex;
 }
 
+#tienda h2 {
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+}
+
+.imgTienda{
+    width: 100%;
+}
+
+.link {
+    font-size: 2.4rem;
+    font-family: sansation;
+    margin-top: 3rem;
+} 
 
 /* Contacto */
 
 #contacto {
-    scroll-margin-top: 40ex;
+    scroll-margin-top: 17ex;
     margin-top: 12rem;
     margin-bottom: 6rem;
 }
@@ -514,7 +582,7 @@ margin-top: 10rem;
 }
 
 
-/* Footer (Pie) */
+/* Footer (Pie)
 .footer {
     grid-area: pie;
     height: 12rem;
@@ -549,4 +617,35 @@ margin-top: 10rem;
 
 .redesSociales1 {
     width: 5rem;
+} */
+
+.container-fluid{
+    grid-area: pie;
+    margin-top: 10rem;
+    background-color: rgb(83, 83, 83);
+    margin-top: 10rem;
+ height: 8rem;
+
 }
+
+.logoFooter {
+    width: 6rem;
+}
+
+.redesSoc{
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.container-fluid h4 {
+    font-size: 1.5rem;
+    font-family: sansation;
+    color: aliceblue;
+}
+
+.container-fluid h3 {
+    height: 3rem;
+    color: aliceblue;
+}
+
+
