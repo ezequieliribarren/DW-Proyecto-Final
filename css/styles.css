@@ -23,6 +23,9 @@ body {
 }
 
 
+
+
+
 /* Estilos h1 - h2 - h3 */
 h1 {
     font-family: sansation;
@@ -196,9 +199,10 @@ header {
 }
 
 .parrafoProd p {
-    font-family: sansation;
-    font-size: 1.5rem;
-    padding: 3rem;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 1.8rem;
+    padding: 5rem;
+    text-align: justify;
 }
 
 .divImgChicas {
