@@ -229,21 +229,58 @@
         margin-bottom: 7rem;
     }
 
+    h3{
+        font-size: 2rem;
+    }
+
 section{
     background-image: url(../img/fondo/secciones.jpg);
     border-radius: 30px;
 }
+
+.enlacesTienda{
+    display: flex;
+    justify-content: center;
+   
+}
+.upTiend{
+    display: flex;
+    justify-content: center;
+    p{
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+}
+.cardsTienda{
+    padding: 2rem;
+    width: 25%;
 }
 
-.imgTienda {
-    width: 90%;
+img{
+    width: 100%;
 }
 
-.link {
-    font-size: 2.4rem;
-    font-family: sansation;
-    margin-top: 3rem;
+@media (max-width: 768px) {
+
+    .enlacesTienda {
+        flex-direction: column;
+        align-items: center;
+    }
 }
+}
+
+
+
+
+// .imgTienda {
+//     width: 90%;
+// }
+
+// .link {
+//     font-size: 2.4rem;
+//     font-family: sansation;
+//     margin-top: 3rem;
+// }
 
 
 /* Footer */
