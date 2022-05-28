@@ -288,12 +288,11 @@
   #tienda .enlacesTienda {
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 }
 
 /* Footer */
-/* line 288, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 287, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid {
   grid-area: pie;
   margin-top: 10rem;
@@ -302,25 +301,25 @@
   height: 8rem;
 }
 
-/* line 295, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 294, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid h4 {
   font-size: 1.5rem;
   font-family: sansation;
   color: aliceblue;
 }
 
-/* line 301, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 300, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid h3 {
   height: 3rem;
   color: aliceblue;
 }
 
-/* line 307, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 306, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .logoFooter {
   width: 6rem;
 }
 
-/* line 311, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 310, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .redesSoc {
   display: flex;
   justify-content: flex-end !important;
