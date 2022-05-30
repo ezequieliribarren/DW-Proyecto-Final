@@ -1,5 +1,5 @@
 /* Nav */
-/* line 2, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 4, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .navbar {
   grid-area: navegador;
   background-color: #8b8b8b;
@@ -11,138 +11,131 @@
   background-image: url(../img/fondo/nav.jpg);
 }
 
-/* line 12, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 14, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .navbar .logo {
   width: 6rem;
 }
 
-/* line 20, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 22, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .navbar-nav a {
   margin: 2rem;
   font-family: sansation;
   font-weight: 597;
 }
 
-/* line 28, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 30, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .nav-link {
   color: white;
 }
 
-/* line 33, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 35, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .nav-link :hover {
   color: #030303;
   transform: scale(1.1);
 }
 
-/* line 43, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 45, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #nosotros {
   scroll-margin-top: 17ex;
 }
 
-/* line 45, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 48, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #nosotros section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 52, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.arribaNos1 {
+/* line 53, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+#nosotros .simbolosNos {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  align-items: center;
 }
 
-/* line 56, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.arribaNos1 img {
-  width: 85%;
+/* line 58, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+#nosotros .simbolosNos img {
+  width: 30rem;
+  padding: 1rem;
 }
 
-/* line 62, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.abajoNos {
+/* line 64, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+#nosotros .simbolosNos :hover {
+  transform: scale(1.02);
+}
+
+/* line 70, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos {
+  margin-top: 10rem;
+}
+
+/* line 73, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos .flexNos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* line 78, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos .flexNos img {
+  width: 25rem;
+  margin-left: 1rem;
+}
+
+/* line 85, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos .flexImgNos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+/* line 94, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos h3 {
+  font-size: 3rem;
+}
+
+/* line 98, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos .parrafoNos {
   display: flex;
   justify-content: center;
 }
 
-/* line 65, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.abajoNos img {
-  width: 85%;
-  margin-bottom: 4rem;
+/* line 104, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+.explicacionNos p {
+  font-size: 1.8rem;
+  padding: 5rem;
+  margin-top: 5rem;
 }
 
-/* line 71, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 112, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .titleNos {
   margin-top: 18rem;
 }
 
-/* line 75, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.mt-5 {
-  margin-top: 8rem !important;
-}
-
-/* line 80, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.arribaNos {
-  margin-bottom: 5rem;
-  height: 100%;
-  margin-top: 3rem;
-}
-
-/* line 85, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.arribaNos h3 {
-  margin-bottom: 3rem;
-}
-
-/* line 89, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.arribaNos p {
-  font-size: large;
-  font-family: sansation;
-  text-align: center;
-  margin: 2rem;
-  margin-top: 3rem;
-}
-
-/* line 100, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.abajoNos1 {
-  height: 100%;
-}
-
-/* line 102, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.abajoNos1 h3 {
-  margin-bottom: 3rem;
-}
-
-/* line 106, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
-.abajoNos1 p {
-  font-size: large;
-  font-family: sansation;
-  text-align: center;
-  margin: 2rem;
-  margin-top: 3rem;
-}
-
 /* Productos */
-/* line 116, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 119, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #productos {
   scroll-margin-top: 17ex;
 }
 
-/* line 119, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 122, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #productos h2 {
   margin-top: 17rem;
   margin-bottom: 6rem;
 }
 
-/* line 124, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 127, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #productos h3 {
   margin-top: 4rem;
 }
 
-/* line 128, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 131, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #productos section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 135, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 138, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .prodDiv1 {
   display: flex;
   justify-content: center;
@@ -150,12 +143,12 @@
   margin-bottom: 5rem;
 }
 
-/* line 141, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 144, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .prodDiv1 img {
-  width: 80%;
+  width: 85%;
 }
 
-/* line 148, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 151, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .parrafoProd p {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 1.8rem;
@@ -164,66 +157,66 @@
   text-align: justify;
 }
 
-/* line 159, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 162, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .divImgChicas {
   display: flex;
 }
 
-/* line 162, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 165, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .divImgChicas img {
   width: 100%;
   padding: 1rem;
 }
 
-/* line 167, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 170, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .divImgChicas img:hover {
   transform: scale(1.5);
 }
 
 /* Clientes */
-/* line 174, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 177, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #clientes {
   scroll-margin-top: 60ex;
 }
 
-/* line 177, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 180, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #clientes h2 {
   margin-bottom: 8rem;
   margin-top: 12rem;
 }
 
-/* line 181, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 185, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #clientes section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 189, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 193, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .clientes1 {
   display: flex;
   justify-content: center;
 }
 
-/* line 193, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 197, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .clientes1 img {
   width: 50rem;
   padding: 5rem;
 }
 
-/* line 201, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 205, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .clientes2 {
   display: flex;
   justify-content: center;
 }
 
-/* line 205, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 209, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .clientes2 img {
   width: 20rem;
   padding: 1rem;
 }
 
 @media (max-width: 768px) {
-  /* line 215, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+  /* line 219, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
   .clientes1,
   .clientes2 {
     flex-direction: column;
@@ -232,67 +225,76 @@
 }
 
 /* Tienda Boostrap */
-/* line 224, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 228, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda {
   scroll-margin-top: 17ex;
 }
 
-/* line 227, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 231, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda h2 {
   margin-top: 15rem;
   margin-bottom: 7rem;
 }
 
-/* line 232, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 236, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda h3 {
   font-size: 2rem;
 }
 
-/* line 236, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 240, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 241, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 245, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda .enlacesTienda {
   display: flex;
   justify-content: center;
 }
 
-/* line 246, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 251, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda .upTiend {
   display: flex;
   justify-content: center;
 }
 
-/* line 249, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 255, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda .upTiend p {
   margin-top: 4rem;
   font-size: 2rem;
 }
 
-/* line 254, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 261, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda .cardsTienda {
   padding: 2rem;
   width: 25%;
 }
 
-/* line 259, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 265, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+#tienda .cardsTienda :hover {
+  transform: scale(1.1);
+}
+
+/* line 270, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 #tienda img {
-  width: 100%;
+  width: 85%;
 }
 
 @media (max-width: 768px) {
-  /* line 265, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+  /* line 276, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
   #tienda .enlacesTienda {
     flex-direction: column;
     align-items: center;
   }
+  /* line 281, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+  #tienda .cardsTienda {
+    width: 85%;
+  }
 }
 
 /* Footer */
-/* line 287, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 303, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid {
   grid-area: pie;
   margin-top: 10rem;
@@ -301,25 +303,25 @@
   height: 8rem;
 }
 
-/* line 294, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 310, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid h4 {
   font-size: 1.5rem;
   font-family: sansation;
   color: aliceblue;
 }
 
-/* line 300, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 316, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .container-fluid h3 {
   height: 3rem;
   color: aliceblue;
 }
 
-/* line 306, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 322, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .logoFooter {
   width: 6rem;
 }
 
-/* line 310, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
+/* line 326, ../../2da entrega proyecto final - copia/Frama-Sublimables/scss/styles.scss */
 .redesSoc {
   display: flex;
   justify-content: flex-end !important;
