@@ -1,0 +1,37 @@
+/* Nav */
+.navbar {
+    grid-area: navegador;
+    // background-color: rgb(139, 139, 139);
+    position: fixed;
+    width: $total;
+    font-size: large;
+    font-family: sansation;
+    z-index: 1;
+    background-image: url(../img/fondo/nav.webp);
+
+    .logo {
+        width: 6rem;
+    }
+
+}
+
+
+.navbar-nav {
+    a {
+        margin: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 597;
+    }
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link {
+    :hover {
+        color: rgb(3, 3, 3);
+        transform: scale(1.1);
+    }
+}
