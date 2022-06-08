@@ -52,8 +52,8 @@
         margin-top: 2rem;
 
         img {
-            width: 40rem;
-            height: 40rem;
+            width: 40%;
+            height: 40%;
             margin: 3rem;
             padding: 2rem;
             border-radius: 5rem;
@@ -61,7 +61,7 @@
         }
 
         .imgPosicionamiento {
-            width: 60rem;
+            width: 90%;
         }
     }
 
@@ -80,9 +80,8 @@
 
     p {
         font-size: 2rem;
-        margin: 4rem;
+        margin: 3rem;
         padding: 5rem;
-        text-align: justify;
     }
 
 }
@@ -99,10 +98,18 @@
 
     .flexNos {
         flex-direction: column;
+        
+ 
     }
 
     .flexImgNos {
         flex-direction: column;
+
+        img{
+            width: 90% !important;
+            height: 90% !important;
+        }
+
     }
 
 }
