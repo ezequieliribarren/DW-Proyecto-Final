@@ -315,26 +315,24 @@ header {
 
 /* line 208, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes1 img {
-  width: 50rem;
-  height: 50rem;
+  width: 100%;
   padding: 5rem;
 }
 
-/* line 217, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 216, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes2 {
   display: flex;
   justify-content: center;
 }
 
-/* line 221, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 220, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes2 img {
-  width: 20rem;
-  height: 20rem;
+  width: 100%;
   padding: 1rem;
 }
 
 @media (max-width: 768px) {
-  /* line 232, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 230, ../../3er entrega proyecto final/scss/_secciones.scss */
   .clientes1,
   .clientes2 {
     flex-direction: column;
@@ -343,43 +341,43 @@ header {
 }
 
 /* Tienda */
-/* line 241, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 239, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda {
   scroll-margin-top: 25ex;
 }
 
-/* line 244, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 242, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h2 {
   margin-top: 15rem;
   margin-bottom: 6rem;
 }
 
-/* line 249, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 247, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-/* line 255, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 253, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 260, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 258, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .enlacesTienda {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 267, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 265, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend {
   display: flex;
   justify-content: center;
 }
 
-/* line 271, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 269, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -387,18 +385,18 @@ header {
   margin-top: 2rem;
 }
 
-/* line 279, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 277, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .cardsTienda {
   padding: 2rem;
   width: 25%;
 }
 
-/* line 283, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 281, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .cardsTienda :hover {
   transform: scale(1.1);
 }
 
-/* line 288, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 286, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda img {
   width: 100%;
   height: 100%;
@@ -406,19 +404,19 @@ header {
 }
 
 @media (max-width: 768px) {
-  /* line 296, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 294, ../../3er entrega proyecto final/scss/_secciones.scss */
   #tienda .enlacesTienda {
     flex-direction: column;
     align-items: center;
   }
-  /* line 301, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 299, ../../3er entrega proyecto final/scss/_secciones.scss */
   #tienda .cardsTienda {
     width: 50%;
   }
 }
 
 /* Footer */
-/* line 310, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 308, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid {
   grid-area: pie;
   margin-top: 10rem;
@@ -428,45 +426,45 @@ header {
   width: 100%;
 }
 
-/* line 318, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 316, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid h4 {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   color: aliceblue;
 }
 
-/* line 324, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 322, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid h3 {
   height: 3rem;
   color: aliceblue;
 }
 
-/* line 330, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 328, ../../3er entrega proyecto final/scss/_secciones.scss */
 .logoFooter {
   width: 6rem;
 }
 
-/* line 334, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 332, ../../3er entrega proyecto final/scss/_secciones.scss */
 .redesSoc {
   display: flex;
   justify-content: flex-end !important;
 }
 
 /* Contacto */
-/* line 341, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 339, ../../3er entrega proyecto final/scss/_secciones.scss */
 #contacto {
   scroll-margin-top: 25ex;
   margin-top: 10rem;
   margin-bottom: 6rem;
 }
 
-/* line 348, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 346, ../../3er entrega proyecto final/scss/_secciones.scss */
 .redesContacto {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 352, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 350, ../../3er entrega proyecto final/scss/_secciones.scss */
 .redesContacto img {
   width: 12rem;
   height: 12rem;
@@ -474,24 +472,24 @@ header {
   margin-bottom: 2rem;
 }
 
-/* line 360, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 358, ../../3er entrega proyecto final/scss/_secciones.scss */
 .redesContacto a :hover {
   transform: scale(1.05);
 }
 
-/* line 367, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 365, ../../3er entrega proyecto final/scss/_secciones.scss */
 .mt-4 {
   padding: 2rem;
 }
 
-/* line 370, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 368, ../../3er entrega proyecto final/scss/_secciones.scss */
 .mt-4 label {
   font-size: large;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
-/* line 377, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 375, ../../3er entrega proyecto final/scss/_secciones.scss */
 .mt-4 ::placeholder {
   font-size: 1.2rem;
 }
