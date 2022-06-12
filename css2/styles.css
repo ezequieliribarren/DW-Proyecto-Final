@@ -157,9 +157,9 @@ header {
 .explicacionNos .flexImgNos img {
   width: 40%;
   height: 40%;
-  margin: 3rem;
-  padding: 2rem;
+  margin: 2rem;
   border-radius: 5rem;
+  padding: 1rem;
   background-color: gray;
 }
 
@@ -275,109 +275,91 @@ header {
   transform: scale(1.2);
 }
 
-/* Clientes */
 /* line 177, ../../3er entrega proyecto final/scss/_secciones.scss */
-#clientes {
-  scroll-margin-top: 45ex;
-}
-
-/* line 180, ../../3er entrega proyecto final/scss/_secciones.scss */
-#clientes h2 {
-  margin-bottom: 8rem;
-  margin-top: 12rem;
-}
-
-/* line 185, ../../3er entrega proyecto final/scss/_secciones.scss */
-#clientes .pClient {
+.clientes {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-/* line 190, ../../3er entrega proyecto final/scss/_secciones.scss */
-#clientes p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+/* line 181, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .descripClientes {
+  width: 50%;
+}
+
+/* line 184, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .descripClientes p {
   padding: 2rem;
-  margin-top: 2rem;
+  margin: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-/* line 197, ../../3er entrega proyecto final/scss/_secciones.scss */
-#clientes section {
-  background-image: url(../img/fondo/secciones.jpg);
-  border-radius: 30px;
+/* line 192, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .carouselClientes {
+  width: 50%;
 }
 
-/* line 204, ../../3er entrega proyecto final/scss/_secciones.scss */
-.clientes1 {
-  display: flex;
-  justify-content: center;
+/* line 195, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .carouselClientes .carousel {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  width: 85%;
+  height: 85%;
 }
 
-/* line 208, ../../3er entrega proyecto final/scss/_secciones.scss */
-.clientes1 img {
-  width: 100%;
-  padding: 5rem;
-}
-
-/* line 216, ../../3er entrega proyecto final/scss/_secciones.scss */
-.clientes2 {
-  display: flex;
-  justify-content: center;
-}
-
-/* line 220, ../../3er entrega proyecto final/scss/_secciones.scss */
-.clientes2 img {
-  width: 100%;
-  padding: 1rem;
+/* line 203, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .carouselClientes img {
+  width: 85%;
+  height: 85%;
 }
 
 @media (max-width: 768px) {
-  /* line 230, ../../3er entrega proyecto final/scss/_secciones.scss */
-  .clientes1,
-  .clientes2 {
+  /* line 213, ../../3er entrega proyecto final/scss/_secciones.scss */
+  .clientes {
     flex-direction: column;
     align-items: center;
   }
 }
 
 /* Tienda */
-/* line 239, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 221, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda {
   scroll-margin-top: 25ex;
 }
 
-/* line 242, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 224, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h2 {
   margin-top: 15rem;
   margin-bottom: 6rem;
 }
 
-/* line 247, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 229, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-/* line 253, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 235, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
 }
 
-/* line 258, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 240, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .enlacesTienda {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 265, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 247, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend {
   display: flex;
   justify-content: center;
 }
 
-/* line 269, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 251, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -385,18 +367,18 @@ header {
   margin-top: 2rem;
 }
 
-/* line 277, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 259, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .cardsTienda {
   padding: 2rem;
   width: 25%;
 }
 
-/* line 281, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 263, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .cardsTienda :hover {
   transform: scale(1.1);
 }
 
-/* line 286, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 268, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda img {
   width: 100%;
   height: 100%;
@@ -404,19 +386,72 @@ header {
 }
 
 @media (max-width: 768px) {
-  /* line 294, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 276, ../../3er entrega proyecto final/scss/_secciones.scss */
   #tienda .enlacesTienda {
     flex-direction: column;
     align-items: center;
   }
-  /* line 299, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 281, ../../3er entrega proyecto final/scss/_secciones.scss */
   #tienda .cardsTienda {
     width: 50%;
   }
 }
 
-/* Footer */
+/* Contacto */
+/* line 289, ../../3er entrega proyecto final/scss/_secciones.scss */
+#contacto {
+  scroll-margin-top: 25ex;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+/* line 296, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 300, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto img {
+  width: 12rem;
+  height: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* line 308, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto a :hover {
+  transform: scale(1.05);
+}
+
+/* line 315, ../../3er entrega proyecto final/scss/_secciones.scss */
+.mt-4 {
+  padding: 2rem;
+}
+
+/* line 319, ../../3er entrega proyecto final/scss/_secciones.scss */
+label {
+  font-size: large;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/* line 326, ../../3er entrega proyecto final/scss/_secciones.scss */
+::placeholder {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  /* line 332, ../../3er entrega proyecto final/scss/_secciones.scss */
+  .redesContacto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Footer */
+/* line 342, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid {
   grid-area: pie;
   margin-top: 10rem;
@@ -426,72 +461,22 @@ header {
   width: 100%;
 }
 
-/* line 316, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 350, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid h4 {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   color: aliceblue;
 }
 
-/* line 322, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 356, ../../3er entrega proyecto final/scss/_secciones.scss */
 .container-fluid h3 {
   height: 3rem;
   color: aliceblue;
 }
 
-/* line 328, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 362, ../../3er entrega proyecto final/scss/_secciones.scss */
 .logoFooter {
   width: 6rem;
-}
-
-/* line 332, ../../3er entrega proyecto final/scss/_secciones.scss */
-.redesSoc {
-  display: flex;
-  justify-content: flex-end !important;
-}
-
-/* Contacto */
-/* line 339, ../../3er entrega proyecto final/scss/_secciones.scss */
-#contacto {
-  scroll-margin-top: 25ex;
-  margin-top: 10rem;
-  margin-bottom: 6rem;
-}
-
-/* line 346, ../../3er entrega proyecto final/scss/_secciones.scss */
-.redesContacto {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* line 350, ../../3er entrega proyecto final/scss/_secciones.scss */
-.redesContacto img {
-  width: 12rem;
-  height: 12rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-/* line 358, ../../3er entrega proyecto final/scss/_secciones.scss */
-.redesContacto a :hover {
-  transform: scale(1.05);
-}
-
-/* line 365, ../../3er entrega proyecto final/scss/_secciones.scss */
-.mt-4 {
-  padding: 2rem;
-}
-
-/* line 368, ../../3er entrega proyecto final/scss/_secciones.scss */
-.mt-4 label {
-  font-size: large;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-/* line 375, ../../3er entrega proyecto final/scss/_secciones.scss */
-.mt-4 ::placeholder {
-  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

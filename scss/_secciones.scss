@@ -54,9 +54,9 @@
         img {
             width: 40%;
             height: 40%;
-            margin: 3rem;
-            padding: 2rem;
+            margin: 2rem;
             border-radius: 5rem;
+            padding: 1rem;
             background-color: gray;
         }
 
@@ -98,14 +98,14 @@
 
     .flexNos {
         flex-direction: column;
-        
- 
+
+
     }
 
     .flexImgNos {
         flex-direction: column;
 
-        img{
+        img {
             width: 90% !important;
             height: 90% !important;
         }
@@ -173,62 +173,44 @@
 }
 
 
-/* Clientes */
-#clientes {
-    scroll-margin-top: 45ex;
-
-    h2 {
-        margin-bottom: 8rem;
-        margin-top: 12rem;
-    }
-
-    .pClient {
-        display: flex;
-        justify-content: center;
-    }
-
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        padding: 2rem;
-        margin-top: 2rem;
-    }
-
-    section {
-        background-image: map-get($fondoSeccion , fondo);
-        border-radius: map-get($fondoSeccion, borde);
-    }
-}
-
-
-.clientes1 {
+// Clientes
+.clientes {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
-    img {
-        width: 100%;
-        padding: 5rem;
+    .descripClientes {
+        width: $medio;
+
+        p {
+            padding: 2rem;
+            margin: 2rem;
+            font-size: 1.8rem;
+            text-align: center;
+        }
     }
 
-}
+    .carouselClientes {
+        width: $medio;
 
+        .carousel {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            margin-left: 2rem;
+            width: $grande;
+            height: $grande;
+        }
 
-.clientes2 {
-    display: flex;
-    justify-content: center;
+        img {
+            width: $grande;
+            height: $grande;
+        }
 
-    img {
-        width: 100%;
-        padding: 1rem;
     }
-
 }
-
 
 @include responsive (tablet) {
 
-    .clientes1,
-    .clientes2 {
+    .clientes {
         flex-direction: column;
         align-items: center;
     }
@@ -303,38 +285,6 @@
 
 }
 
-
-/* Footer */
-.container-fluid {
-    grid-area: pie;
-    margin-top: 10rem;
-    background-color: rgb(83, 83, 83);
-    margin-top: 10rem;
-    height: 8rem;
-    width: $total;
-
-    h4 {
-        font-size: 1.5rem;
-        font-family: 'Poppins', sans-serif;
-        color: aliceblue;
-    }
-
-    h3 {
-        height: 3rem;
-        color: aliceblue;
-    }
-}
-
-.logoFooter {
-    width: 6rem;
-}
-
-.redesSoc {
-    display: flex;
-    justify-content: flex-end !important;
-}
-
-
 /* Contacto */
 #contacto {
     scroll-margin-top: 25ex;
@@ -364,16 +314,52 @@
 
 .mt-4 {
     padding: 2rem;
+}
 
-    label {
-        font-size: large;
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-
-    }
-
-    ::placeholder {
-        font-size: 1.2rem;
-    }
+label {
+    font-size: large;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 
 }
+
+::placeholder {
+    font-size: 1.2rem;
+}
+
+@include responsive (tablet) {
+
+.redesContacto{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+/* Footer */
+.container-fluid {
+    grid-area: pie;
+    margin-top: 10rem;
+    background-color: rgb(83, 83, 83);
+    margin-top: 10rem;
+    height: 8rem;
+    width: $total;
+
+    h4 {
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        color: aliceblue;
+    }
+
+    h3 {
+        height: 3rem;
+        color: aliceblue;
+    }
+}
+
+.logoFooter {
+    width: 6rem;
+}
+
