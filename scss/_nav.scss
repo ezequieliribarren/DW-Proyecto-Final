@@ -1,13 +1,12 @@
 /* Nav */
 .navbar {
     grid-area: navegador;
-    // background-color: rgb(139, 139, 139);
     position: fixed;
     width: $total;
     font-size: large;
     font-family: sansation;
     z-index: 1;
-    background-image: url(../img/fondo/nav.webp);
+    background-color: rgba(75, 75, 75, 0.955);
 
     .logo {
         width: 6rem;
@@ -17,21 +16,18 @@
 
 
 .navbar-nav {
-    a {
-        margin: 2rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 597;
-    }
-
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link {
     :hover {
-        color: rgb(3, 3, 3);
-        transform: scale(1.1);
+        transform: scale(1.02);
+        color: white;
     }
 }
+
+.nav-item {
+
+        a {
+            margin: 2rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 597;   
+                 color: rgb(221, 221, 221) !important;
+        }
+    }
