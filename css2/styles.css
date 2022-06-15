@@ -56,12 +56,12 @@ header {
 }
 
 /* Principal */
-/* line 48, ../../3er entrega proyecto final/scss/_estructura.scss */
+/* line 49, ../../3er entrega proyecto final/scss/_estructura.scss */
 .main {
   grid-area: principal;
 }
 
-/* line 52, ../../3er entrega proyecto final/scss/_estructura.scss */
+/* line 54, ../../3er entrega proyecto final/scss/_estructura.scss */
 section {
   background-image: url(../img/fondo/secciones.jpg);
   border-radius: 30px;
