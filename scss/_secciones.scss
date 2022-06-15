@@ -10,11 +10,6 @@
 #nosotros {
     scroll-margin-top: 25ex;
 
-    section {
-        background-image: map-get($fondoSeccion , fondo);
-        border-radius: map-get($fondoSeccion, borde);
-    }
-
     .simbolosNos {
         display: flex;
         justify-content: center;
@@ -128,11 +123,6 @@
         margin-top: 4rem;
     }
 
-    section {
-        background-image: map-get($fondoSeccion , fondo);
-        border-radius: map-get($fondoSeccion, borde);
-    }
-
 }
 
 .prodDiv1 {
@@ -141,10 +131,9 @@
     margin-top: 5rem;
 
     img {
-        width: 65%;
+        width: 60%;
         border-style: outset;
-        border-color: rgb(186, 186, 186);
-        margin: 2rem;
+        border-color: rgb(181, 181, 181);
     }
 }
 
@@ -177,27 +166,31 @@
 
 
 // Clientes
-
-#clientes{
+#clientes {
     scroll-margin-top: 25ex;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
+
+
 .clientes {
     display: flex;
     justify-content: space-around;
 
-    h3{
-        font-size: 2.5rem;
-    }
-
     .descripClientes {
         width: $medio;
 
+        h3 {
+            margin-top: 2rem;
+            font-size: 2.5rem;
+        }
+
         p {
             padding: 2rem;
+            font-style: italic;
             margin: 2rem;
             font-size: 2rem;
             text-align: center;
-            font-style: italic;
         }
     }
 
@@ -244,11 +237,6 @@
 
     }
 
-    section {
-        background-image: map-get($fondoSeccion , fondo);
-        border-radius: map-get($fondoSeccion, borde);
-    }
-
     .enlacesTienda {
         display: flex;
         justify-content: center;
@@ -262,16 +250,16 @@
 
         p {
             font-family: 'Montserrat', sans-serif;
-      font-style: italic;
             font-size: 2rem;
+            font-style: italic;
             padding: 2rem;
             margin-top: 2rem;
+
         }
-    
+    }
 
     .cardsTienda {
         padding: 2rem;
-        margin-bottom: 2rem;
         width: $chico;
 
         :hover {
@@ -283,7 +271,7 @@
         width: $total;
         height: $total;
         border-style: outset;
-        border-color: rgb(186, 186, 186);
+        border-color: rgb(181, 181, 181);
     }
 
     @include responsive (tablet) {
@@ -316,7 +304,7 @@
         width: 9rem;
         height: 9rem;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     a {
@@ -344,11 +332,11 @@ label {
 
 @include responsive (tablet) {
 
-.redesContacto{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .redesContacto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -376,6 +364,4 @@ label {
 
 .logoFooter {
     width: 6rem;
-}
-
 }

@@ -44,7 +44,14 @@ header {
     display: flex;
     justify-content: center;
 }
+
 /* Principal */
 .main {
     grid-area: principal;
+}
+
+// Fondos secciones
+section {
+    background-image: map-get($fondoSeccion , fondo);
+    border-radius: map-get($fondoSeccion, borde);
 }

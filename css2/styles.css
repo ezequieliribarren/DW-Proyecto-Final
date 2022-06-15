@@ -61,16 +61,22 @@ header {
   grid-area: principal;
 }
 
+/* line 52, ../../3er entrega proyecto final/scss/_estructura.scss */
+section {
+  background-image: url(../img/fondo/secciones.jpg);
+  border-radius: 30px;
+}
+
 /* Nav */
 /* line 2, ../../3er entrega proyecto final/scss/_nav.scss */
 .navbar {
   grid-area: navegador;
+  background-color: rgba(83, 83, 83, 0.91);
   position: fixed;
   width: 100%;
   font-size: large;
   font-family: sansation;
   z-index: 1;
-  background-color: rgba(75, 75, 75, 0.955);
 }
 
 /* line 11, ../../3er entrega proyecto final/scss/_nav.scss */
@@ -79,17 +85,16 @@ header {
 }
 
 /* line 19, ../../3er entrega proyecto final/scss/_nav.scss */
-.navbar-nav :hover {
-  transform: scale(1.02);
-  color: white;
-}
-
-/* line 27, ../../3er entrega proyecto final/scss/_nav.scss */
-.nav-item a {
+.navbar-nav a {
   margin: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 597;
-  color: #dddddd !important;
+  color: white !important;
+}
+
+/* line 28, ../../3er entrega proyecto final/scss/_nav.scss */
+.navbar-nav :hover {
+  transform: scale(1.04);
 }
 
 /* Carrousel */
@@ -104,19 +109,13 @@ header {
 }
 
 /* line 13, ../../3er entrega proyecto final/scss/_secciones.scss */
-#nosotros section {
-  background-image: url(../img/fondo/secciones.jpg);
-  border-radius: 30px;
-}
-
-/* line 18, ../../3er entrega proyecto final/scss/_secciones.scss */
 #nosotros .simbolosNos {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 23, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 18, ../../3er entrega proyecto final/scss/_secciones.scss */
 #nosotros .simbolosNos img {
   width: 30rem;
   height: 30rem;
@@ -124,23 +123,23 @@ header {
   margin-top: 5rem;
 }
 
-/* line 31, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 26, ../../3er entrega proyecto final/scss/_secciones.scss */
 #nosotros .simbolosNos :hover {
   transform: scale(1.02);
 }
 
-/* line 37, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 32, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos {
   width: 100%;
   margin-top: 12rem;
 }
 
-/* line 41, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 36, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos .flexNos {
   margin-top: 4rem;
 }
 
-/* line 47, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 42, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos .flexImgNos {
   scroll-margin-top: 40ex;
   display: flex;
@@ -149,7 +148,7 @@ header {
   margin-top: 2rem;
 }
 
-/* line 54, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 49, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos .flexImgNos img {
   width: 40%;
   height: 40%;
@@ -159,12 +158,12 @@ header {
   background-color: gray;
 }
 
-/* line 63, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 58, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos .flexImgNos .imgPosicionamiento {
   width: 90%;
 }
 
-/* line 68, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 63, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos .parrafoNos {
   display: flex;
   justify-content: center;
@@ -172,38 +171,38 @@ header {
   width: 50%;
 }
 
-/* line 76, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 71, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos h3 {
   font-size: 3rem;
   margin-top: 16rem;
 }
 
-/* line 81, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 76, ../../3er entrega proyecto final/scss/_secciones.scss */
 .explicacionNos p {
   font-size: 1.8rem;
   margin: 3rem;
   padding: 3rem;
 }
 
-/* line 89, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 84, ../../3er entrega proyecto final/scss/_secciones.scss */
 .titleNos {
   margin-top: 18rem;
 }
 
 @media (max-width: 768px) {
-  /* line 94, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 89, ../../3er entrega proyecto final/scss/_secciones.scss */
   .simbolosNos {
     flex-direction: column;
   }
-  /* line 99, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 94, ../../3er entrega proyecto final/scss/_secciones.scss */
   .flexNos {
     flex-direction: column;
   }
-  /* line 105, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 100, ../../3er entrega proyecto final/scss/_secciones.scss */
   .flexImgNos {
     flex-direction: column;
   }
-  /* line 108, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 103, ../../3er entrega proyecto final/scss/_secciones.scss */
   .flexImgNos img {
     width: 90% !important;
     height: 90% !important;
@@ -211,44 +210,37 @@ header {
 }
 
 /* Productos */
-/* line 119, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 114, ../../3er entrega proyecto final/scss/_secciones.scss */
 #productos {
   scroll-margin-top: 25ex;
 }
 
-/* line 122, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 117, ../../3er entrega proyecto final/scss/_secciones.scss */
 #productos h2 {
   margin-top: 17rem;
   margin-bottom: 6rem;
 }
 
-/* line 127, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 122, ../../3er entrega proyecto final/scss/_secciones.scss */
 #productos h3 {
   margin-top: 4rem;
 }
 
-/* line 131, ../../3er entrega proyecto final/scss/_secciones.scss */
-#productos section {
-  background-image: url(../img/fondo/secciones.jpg);
-  border-radius: 30px;
-}
-
-/* line 138, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 128, ../../3er entrega proyecto final/scss/_secciones.scss */
 .prodDiv1 {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
 }
 
-/* line 143, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 133, ../../3er entrega proyecto final/scss/_secciones.scss */
 .prodDiv1 img {
-  width: 65%;
+  width: 60%;
   border-style: outset;
-  border-color: #bababa;
-  margin: 2rem;
+  border-color: #b5b5b5;
 }
 
-/* line 153, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 142, ../../3er entrega proyecto final/scss/_secciones.scss */
 .parrafoProd p {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 1.8rem;
@@ -257,59 +249,62 @@ header {
   text-align: justify;
 }
 
-/* line 164, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 153, ../../3er entrega proyecto final/scss/_secciones.scss */
 .divImgChicas {
   display: flex;
 }
 
-/* line 167, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 156, ../../3er entrega proyecto final/scss/_secciones.scss */
 .divImgChicas img {
   width: 100%;
   height: 100%;
   padding: 1rem;
 }
 
-/* line 173, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 162, ../../3er entrega proyecto final/scss/_secciones.scss */
 .divImgChicas img:hover {
   transform: scale(1.2);
 }
 
-/* line 181, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 169, ../../3er entrega proyecto final/scss/_secciones.scss */
 #clientes {
   scroll-margin-top: 25ex;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
-/* line 184, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 176, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 188, ../../3er entrega proyecto final/scss/_secciones.scss */
-.clientes h3 {
-  font-size: 2.5rem;
-}
-
-/* line 192, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 180, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes .descripClientes {
   width: 50%;
 }
 
-/* line 195, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 183, ../../3er entrega proyecto final/scss/_secciones.scss */
+.clientes .descripClientes h3 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+/* line 188, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes .descripClientes p {
   padding: 2rem;
+  font-style: italic;
   margin: 2rem;
   font-size: 2rem;
   text-align: center;
-  font-style: italic;
 }
 
-/* line 204, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 197, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes .carouselClientes {
   width: 50%;
 }
 
-/* line 207, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 200, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes .carouselClientes .carousel {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -318,14 +313,14 @@ header {
   height: 85%;
 }
 
-/* line 215, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 208, ../../3er entrega proyecto final/scss/_secciones.scss */
 .clientes .carouselClientes img {
   width: 85%;
   height: 85%;
 }
 
 @media (max-width: 768px) {
-  /* line 225, ../../3er entrega proyecto final/scss/_secciones.scss */
+  /* line 218, ../../3er entrega proyecto final/scss/_secciones.scss */
   .clientes {
     flex-direction: column;
     align-items: center;
@@ -333,139 +328,132 @@ header {
 }
 
 /* Tienda */
-/* line 233, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 226, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda {
   scroll-margin-top: 25ex;
-  /* Contacto */
-  /* Footer */
 }
 
-/* line 236, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 229, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h2 {
   margin-top: 15rem;
   margin-bottom: 6rem;
 }
 
-/* line 241, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 234, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-/* line 247, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda section {
-  background-image: url(../img/fondo/secciones.jpg);
-  border-radius: 30px;
-}
-
-/* line 252, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 240, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .enlacesTienda {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 259, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 247, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend {
   display: flex;
   justify-content: center;
 }
 
-/* line 263, ../../3er entrega proyecto final/scss/_secciones.scss */
+/* line 251, ../../3er entrega proyecto final/scss/_secciones.scss */
 #tienda .upTiend p {
   font-family: 'Montserrat', sans-serif;
-  font-style: italic;
   font-size: 2rem;
+  font-style: italic;
   padding: 2rem;
   margin-top: 2rem;
 }
 
-/* line 272, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .upTiend .cardsTienda {
+/* line 261, ../../3er entrega proyecto final/scss/_secciones.scss */
+#tienda .cardsTienda {
   padding: 2rem;
-  margin-bottom: 2rem;
   width: 25%;
 }
 
-/* line 277, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .upTiend .cardsTienda :hover {
+/* line 265, ../../3er entrega proyecto final/scss/_secciones.scss */
+#tienda .cardsTienda :hover {
   transform: scale(1.1);
 }
 
-/* line 282, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .upTiend img {
+/* line 270, ../../3er entrega proyecto final/scss/_secciones.scss */
+#tienda img {
   width: 100%;
   height: 100%;
   border-style: outset;
-  border-color: #bababa;
+  border-color: #b5b5b5;
 }
 
 @media (max-width: 768px) {
-  /* line 291, ../../3er entrega proyecto final/scss/_secciones.scss */
-  #tienda .upTiend .enlacesTienda {
+  /* line 279, ../../3er entrega proyecto final/scss/_secciones.scss */
+  #tienda .enlacesTienda {
     flex-direction: column;
     align-items: center;
   }
-  /* line 296, ../../3er entrega proyecto final/scss/_secciones.scss */
-  #tienda .upTiend .cardsTienda {
+  /* line 284, ../../3er entrega proyecto final/scss/_secciones.scss */
+  #tienda .cardsTienda {
     width: 50%;
   }
 }
 
-/* line 304, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda #contacto {
+/* Contacto */
+/* line 292, ../../3er entrega proyecto final/scss/_secciones.scss */
+#contacto {
   scroll-margin-top: 25ex;
   margin-top: 10rem;
   margin-bottom: 6rem;
 }
 
-/* line 311, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .redesContacto {
+/* line 299, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 315, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .redesContacto img {
+/* line 303, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto img {
   width: 9rem;
   height: 9rem;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
-/* line 323, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .redesContacto a :hover {
+/* line 311, ../../3er entrega proyecto final/scss/_secciones.scss */
+.redesContacto a :hover {
   transform: scale(1.05);
 }
 
-/* line 330, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .mt-4 {
+/* line 318, ../../3er entrega proyecto final/scss/_secciones.scss */
+.mt-4 {
   padding: 2rem;
 }
 
-/* line 334, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda label {
+/* line 322, ../../3er entrega proyecto final/scss/_secciones.scss */
+label {
   font-size: large;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
-/* line 341, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda ::placeholder {
+/* line 329, ../../3er entrega proyecto final/scss/_secciones.scss */
+::placeholder {
   font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
-  /* line 347, ../../3er entrega proyecto final/scss/_secciones.scss */
-  #tienda .redesContacto {
+  /* line 335, ../../3er entrega proyecto final/scss/_secciones.scss */
+  .redesContacto {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
 
-/* line 357, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .container-fluid {
+/* Footer */
+/* line 345, ../../3er entrega proyecto final/scss/_secciones.scss */
+.container-fluid {
   grid-area: pie;
   margin-top: 10rem;
   background-color: #535353;
@@ -474,21 +462,21 @@ header {
   width: 100%;
 }
 
-/* line 365, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .container-fluid h4 {
+/* line 353, ../../3er entrega proyecto final/scss/_secciones.scss */
+.container-fluid h4 {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   color: aliceblue;
 }
 
-/* line 371, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .container-fluid h3 {
+/* line 359, ../../3er entrega proyecto final/scss/_secciones.scss */
+.container-fluid h3 {
   height: 3rem;
   color: aliceblue;
 }
 
-/* line 377, ../../3er entrega proyecto final/scss/_secciones.scss */
-#tienda .logoFooter {
+/* line 365, ../../3er entrega proyecto final/scss/_secciones.scss */
+.logoFooter {
   width: 6rem;
 }
 

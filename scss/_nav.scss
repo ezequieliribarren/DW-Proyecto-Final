@@ -1,12 +1,12 @@
 /* Nav */
 .navbar {
     grid-area: navegador;
+    background-color: rgba(83, 83, 83, 0.91);
     position: fixed;
     width: $total;
     font-size: large;
     font-family: sansation;
     z-index: 1;
-    background-color: rgba(75, 75, 75, 0.955);
 
     .logo {
         width: 6rem;
@@ -16,18 +16,16 @@
 
 
 .navbar-nav {
+    a {
+        margin: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 597;
+        color: white !important;
+
+
+    }
+
     :hover {
-        transform: scale(1.02);
-        color: white;
+        transform: scale(1.04);
     }
 }
-
-.nav-item {
-
-        a {
-            margin: 2rem;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 597;   
-                 color: rgb(221, 221, 221) !important;
-        }
-    }
